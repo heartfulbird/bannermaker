@@ -1,0 +1,24 @@
+p#notice = notice
+
+h2
+  | Campaign: &nbsp;
+  = @campaign.name
+
+p = @campaign.name
+
+p = image_tag @campaign.image.url(:medium)
+
+
+- if @show_results
+  table.table
+    tr
+      th Show
+      th Click
+      th Conversion
+    tr
+      td  = @campaign.show
+      td = @campaign.click
+      td = @campaign.conversion
+
+
+

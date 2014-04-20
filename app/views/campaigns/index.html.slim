@@ -1,0 +1,27 @@
+h1 Listing campaigns
+
+table.table
+  tr
+    th Image
+    th Name
+    th Link
+
+    th
+    th
+
+  - @campaigns.each do |campaign|
+    tr
+      td.text-center
+        - if campaign.image.present?
+          = image_tag campaign.image.url(:medium)
+        - else
+          i.no_image.fa.fa-file-o
+      td = campaign.name
+      td = campaign.link
+      td = link_to 'Edit', edit_campaign_path(campaign)
+      td = link_to 'Destroy', campaign, data: {:confirm => 'Are you sure?'}, :method => :delete
+
+br
+
+= link_to 'New Campaign', new_campaign_path
+.clearfix

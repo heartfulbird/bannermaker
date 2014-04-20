@@ -1,0 +1,2 @@
+module GetBannerHelper
+end
