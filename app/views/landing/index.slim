@@ -1,14 +1,23 @@
-h2 Make your banner!
+.row-fluid
 
+  h1.text-center Get more people to visit your website
+  .margin-top-30
+  .text-center
+    = link_to  new_campaign_path do
+      .btn.btn-primary.big Make your banner!
 
+.margin-top-55
+hr
 
-= link_to 'New campaign', new_campaign_path
+.row-fluid
 
+  h1.text-center Make money with Banner Ads
 
-h2 Embed code
+  h3.text-center Paste this code on your site
 
-
-= text_area_tag  nil, '<iframe frameborder="none" height="200" marginheight="0" marginwidth="0" src="/get_banner" width="200"></iframe>', escape: false, class: 'embed_code'
+  .margin-top-40
+  .text-center
+    = text_area_tag  nil, '<iframe frameborder="none" height="200" marginheight="0" marginwidth="0" src="/get_banner" width="200"></iframe>', escape: false, class: 'embed_code'
 
 
 

@@ -17,7 +17,7 @@ html, body, .row-fluid
   float: none
 
 .buffer
-  height: 50px
+  height: 15px
 
 footer
   padding-top: 33px
@@ -27,8 +27,34 @@ footer
 .navbar-default
   border-radius: 0px
 
+.navbar-brand
+  font-size: 26px
+  line-height: 26px
+  height: 60px
 
 .navbar-header
   width: 100%
 .nav.navbar-nav li a
-  line-height: 30px
+  //line-height: 30px
+  //height: 60px
+
+  line-height: 39px
+  height: 59px
+  font-size: 17px
+
+nav.navbar
+  height: 60px
+
+.alert .close
+  color: black
+  right: 0px
+
+a
+  margin-right: 10px
+
+$str: all 0.2s ease-in-out 0.1s
+.btn, .btn:hover
+  -webkit-transition: $str
+  -moz-transition: $str
+  -o-transition: $str
+  transition: $str

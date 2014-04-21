@@ -2,6 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/campaigns/_form.html.slim" afterPath="$PROJECT_DIR$/app/views/campaigns/_form.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bannermaker.iml" afterPath="$PROJECT_DIR$/.idea/bannermaker.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/campaign.rb" afterPath="$PROJECT_DIR$/app/models/campaign.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/campaigns.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/campaigns.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/campaigns_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/campaigns_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/campaigns/edit.html.slim" afterPath="$PROJECT_DIR$/app/views/campaigns/edit.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main/global.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main/global.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/campaigns/index.html.slim" afterPath="$PROJECT_DIR$/app/views/campaigns/index.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/landing/index.slim" afterPath="$PROJECT_DIR$/app/views/landing/index.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/campaigns/new.html.slim" afterPath="$PROJECT_DIR$/app/views/campaigns/new.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main/pages.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main/pages.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/campaigns/show.html.slim" afterPath="$PROJECT_DIR$/app/views/campaigns/show.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/simple_form.rb" afterPath="$PROJECT_DIR$/config/initializers/simple_form.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bannermaker.iws" />
@@ -9,18 +23,18 @@
     <file path="/Gemfile" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1397992530084" ignored="false" />
     <file path="/landing_controller.rb" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1397992597977" ignored="false" />
     <file path="/routes.rb" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398011365988" ignored="false" />
-    <file path="/index.slim" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398011785420" ignored="false" />
-    <file path="/global.sass" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398021925808" ignored="false" />
+    <file path="/index.slim" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398106905486" ignored="false" />
+    <file path="/global.sass" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398112403083" ignored="false" />
     <file path="/application.html.slim" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398020801577" ignored="false" />
     <file path="/20140420112729_campaign_fields.rb" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1397993352899" ignored="false" />
     <file path="/20140420113611_campaign_fields.rb" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1397993809964" ignored="false" />
-    <file path="/_form.html.slim" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398022582133" ignored="false" />
-    <file path="/campaigns_controller.rb" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398018724014" ignored="false" />
-    <file path="/index.html.slim" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398019664774" ignored="false" />
-    <file path="/show.html.slim" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398005452611" ignored="false" />
-    <file path="/campaign.rb" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1397995397117" ignored="false" />
+    <file path="/_form.html.slim" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398110998957" ignored="false" />
+    <file path="/campaigns_controller.rb" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398114996970" ignored="false" />
+    <file path="/index.html.slim" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398114205804" ignored="false" />
+    <file path="/show.html.slim" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398115579366" ignored="false" />
+    <file path="/campaign.rb" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398115178727" ignored="false" />
     <file path="/20140420120505_add_image_to_campaigns.rb" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1397995545720" ignored="false" />
-    <file path="/pages.sass" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398022771136" ignored="false" />
+    <file path="/pages.sass" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398115493768" ignored="false" />
     <file path="/show_random.slim" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1397999119475" ignored="false" />
     <file path="/get_banner_controller.rb" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398017807103" ignored="false" />
     <file path="/20140420134346_add_count_fields_to_campaign.rb" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398001561590" ignored="false" />
@@ -28,9 +42,14 @@
     <file path="/other_site_controller.rb" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398011452568" ignored="false" />
     <file path="/index.html" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398011516439" ignored="false" />
     <file path="/.gitignore" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398016691521" ignored="false" />
-    <file path="/Dummy.txt" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398023002485" ignored="false" />
-    <file path="/campaigns.js.coffee" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398018686111" ignored="false" />
+    <file path="/Dummy.txt" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398103450952" ignored="false" />
+    <file path="/campaigns.js.coffee" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398112666895" ignored="false" />
     <file path="/a.coffee" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398018485295" ignored="false" />
+    <file path="/mixins.sass" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398104336594" ignored="false" />
+    <file path="/application.css" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398104364101" ignored="false" />
+    <file path="/simple_form.rb" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398111916852" ignored="false" />
+    <file path="/edit.html.slim" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398115262194" ignored="false" />
+    <file path="/a.dummy" changelist="b59c439d-1cbe-4f98-bf5f-9ec78ac488df" time="1398115298027" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,28 +69,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="global.sass" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main/global.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="1.2458472">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pages.sass" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main/pages.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="12" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+            <state line="83" column="8" selection-start="1948" selection-end="1962" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.slim" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/campaigns/_form.html.slim">
+      <file leaf-file-name="show.html.slim" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/campaigns/show.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="4" selection-start="76" selection-end="88" vertical-scroll-proportion="-2.5">
+            <state line="9" column="6" selection-start="91" selection-end="117" vertical-scroll-proportion="0.2257525">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="campaign.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/campaign.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="25" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.sass" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main/global.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="20" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="campaigns.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/campaigns.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="5" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.slim" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/campaigns/index.html.slim">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="11" selection-start="49" selection-end="75" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -100,22 +146,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/other_site/index.html" />
-        <option value="$PROJECT_DIR$/app/views/landing/index.slim" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/controllers/landing_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/other_site_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/get_banner_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/campaigns.js.coffee" />
-        <option value="$PROJECT_DIR$/app/controllers/campaigns_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/campaigns/show.html.slim" />
-        <option value="$PROJECT_DIR$/app/views/campaigns/index.html.slim" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/main/mixins.sass" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/landing/index.slim" />
         <option value="$PROJECT_DIR$/app/views/campaigns/_form.html.slim" />
-        <option value="$PROJECT_DIR$/config/initializers/simple_form.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/main/pages.sass" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/main/global.sass" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/campaigns.js.coffee" />
+        <option value="$PROJECT_DIR$/config/initializers/simple_form.rb" />
+        <option value="$PROJECT_DIR$/app/views/campaigns/new.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/campaigns/index.html.slim" />
+        <option value="$PROJECT_DIR$/app/controllers/campaigns_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/campaign.rb" />
+        <option value="$PROJECT_DIR$/app/views/campaigns/edit.html.slim" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/main/pages.sass" />
+        <option value="$PROJECT_DIR$/app/views/campaigns/show.html.slim" />
       </list>
     </option>
   </component>
@@ -188,6 +234,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -310,6 +357,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bannermaker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bannermaker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="campaigns" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -325,6 +394,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bannermaker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bannermaker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bannermaker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bannermaker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -418,7 +523,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
@@ -724,31 +828,35 @@
       <created>1398023008881</created>
       <updated>1398023008881</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="merge design branch">
+      <created>1398023726052</created>
+      <updated>1398023726052</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49537036" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49537036" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2219697" sideWeight="0.5046296" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22954546" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49537036" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49537036" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -793,7 +901,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="design_" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge design branch" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -810,119 +918,116 @@
     <MESSAGE value="hide alert" />
     <MESSAGE value="design" />
     <MESSAGE value="design_" />
+    <MESSAGE value="merge design branch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/campaign.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/get_banner/index.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/get_banner_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="89" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/campaigns.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="37" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/campaigns/show.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="219" selection-end="219" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main/amelia.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="47" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="566" selection-end="566" vertical-scroll-proportion="0.3488372">
-          <folding />
-        </state>
+        <state line="0" column="50" selection-start="47" selection-end="50" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/campaigns_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="73" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.76908755">
+        <state line="12" column="18" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="22" selection-start="1259" selection-end="1259" vertical-scroll-proportion="-1.3333334">
+        <state line="32" column="19" selection-start="1553" selection-end="1565" vertical-scroll-proportion="-5.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/simple_form.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="58" selection-start="1813" selection-end="1813" vertical-scroll-proportion="0.0">
+        <state line="25" column="7" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/campaigns/index.html.slim">
+    <entry file="file://$PROJECT_DIR$/app/views/landing/index.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="82" selection-end="82" vertical-scroll-proportion="0.20467836">
+        <state line="3" column="2" selection-start="69" selection-end="83" vertical-scroll-proportion="0.07978723">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/campaigns/_form.html.slim">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/campaigns.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="76" selection-end="88" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main/pages.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+        <state line="9" column="5" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main/global.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="1.2458472">
+        <state line="52" column="20" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/campaigns/index.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="49" selection-end="75" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/campaigns/_form.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="245" selection-end="245" vertical-scroll-proportion="0.3119584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main/pages.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="8" selection-start="1948" selection-end="1962" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/campaign.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="25" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/campaigns_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="32" selection-start="460" selection-end="486" vertical-scroll-proportion="0.47420964">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/campaigns/new.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="49" selection-end="81" vertical-scroll-proportion="0.10398614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/campaigns/edit.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="81" selection-end="83" vertical-scroll-proportion="0.12998267">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/campaigns/show.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="6" selection-start="91" selection-end="117" vertical-scroll-proportion="0.2257525">
           <folding />
         </state>
       </provider>

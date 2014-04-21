@@ -1,24 +1,32 @@
 p#notice = notice
 
+/h1
+/  | Campaign  &nbsp;|&nbsp;
+/  = @campaign.name
+/.margin-top-30
+
 h2
-  | Campaign: &nbsp;
   = @campaign.name
-
-p = @campaign.name
-
-p = image_tag @campaign.image.url(:medium)
+.margin-top-30
 
 
 - if @show_results
-  table.table
+  table.table.table-striped.table-hover
     tr
+      th Image
       th Show
       th Click
       th Conversion, %
-    tr
-      td  = @campaign.show
-      td = @campaign.click
-      td = @campaign.conversion
+    tr.big
+      td
+        - if @campaign.image.present?
+          div.show style="background: url(#{@campaign.image.url(:medium)}) no-repeat center; background-size: cover;"
+        - else
+          i.no_image.fa.fa-file-o
+      td  = @campaign.show ? @campaign.show : 0
+      td = @campaign.click ? @campaign.click : 0
+      td = @campaign.conversion ? @campaign.conversion : 0.0
 
 
 
+= link_to 'Back', campaigns_path

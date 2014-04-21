@@ -16,6 +16,9 @@ class CampaignsController < ApplicationController
       @campaign.update(click: @all_click, conversion: @conversion)
 
       @show_results = nil
+
+      redirect_to @campaign.link
+
     else
       @show_results = true
     end
@@ -35,7 +38,7 @@ class CampaignsController < ApplicationController
     if @campaign.save
       redirect_to campaigns_path, notice: 'Campaign was successfully created.'
     else
-      redirect_to campaigns_path, notice: 'Campaign was not created!'
+      render 'campaigns/edit'
     end
 
   end
@@ -44,7 +47,7 @@ class CampaignsController < ApplicationController
       if @campaign.update(campaign_params)
         redirect_to campaigns_path, notice: 'Campaign was successfully updated.'
       else
-        redirect_to campaigns_path, notice: 'Campaign was not updated.'
+        render 'campaigns/edit'
       end
   end
 

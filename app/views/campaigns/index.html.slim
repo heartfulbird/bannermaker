@@ -1,6 +1,9 @@
 h1 Listing campaigns
+.margin-top-30
 
-table.table
+
+table.table.table-striped.table-hover
+
   tr
     th Image
     th Name
@@ -13,7 +16,8 @@ table.table
     tr
       td
         - if campaign.image.present?
-          = image_tag campaign.image.url(:medium)
+          /= image_tag campaign.image.url(:medium)
+          div style="background: url(#{campaign.image.url(:thumb)}) no-repeat center; background-size: cover;"
         - else
           i.no_image.fa.fa-file-o
       td = campaign.name

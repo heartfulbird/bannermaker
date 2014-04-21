@@ -21,6 +21,14 @@ SimpleForm.setup do |config|
     # You can also pass a string as f.input placeholder: "Placeholder"
     b.use :placeholder
 
+    b.wrapper tag: 'div', class: 'span1' do |ba|
+      ba.use :label
+    end
+
+
+    b.wrapper tag: 'div', class: 'span3 form-input' do |ba|
+      ba.use :input
+    end
     ## Optional extensions
     # They are disabled unless you pass `f.input EXTENSION_NAME => :lookup`
     # to the input. If so, they will retrieve the values from the model
@@ -40,7 +48,7 @@ SimpleForm.setup do |config|
     b.optional :readonly
 
     ## Inputs
-    b.use :label_input
+    #b.use :label_input
     b.use :hint,  wrap_with: { tag: :span, class: :hint }
     b.use :error, wrap_with: { tag: :span, class: :error }
   end
