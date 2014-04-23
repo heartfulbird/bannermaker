@@ -1,2 +1,6 @@
 = link_to campaign_path(id: @campaign.id, click: @campaign.click ? @campaign.click : 0 ), target: '_blank' do
-  = image_tag @campaign.image.url(:medium)
+  - if @campaign.image.present?
+    = image_tag @campaign.image.url(:medium)
+  - else
+    p нет изображения
+

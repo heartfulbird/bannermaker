@@ -16,7 +16,6 @@ table.table.table-striped.table-hover
     tr
       td
         - if campaign.image.present?
-          /= image_tag campaign.image.url(:medium)
           div style="background: url(#{campaign.image.url(:thumb)}) no-repeat center; background-size: cover;"
         - else
           i.no_image.fa.fa-file-o

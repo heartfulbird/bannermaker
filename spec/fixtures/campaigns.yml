@@ -4,13 +4,6 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one:
-  name: name1
-  link: link1
-  show: 0
+one: {}
 
-two:
-  name: name2
-  link: link2
-  show: 0
-
+two: {}

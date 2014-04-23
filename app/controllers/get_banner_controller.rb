@@ -7,20 +7,25 @@ class GetBannerController < ApplicationController
 
     # Берем рандомную компанию из всех
     campaigns = Campaign.all
-    id = rand(campaigns.count)
-    @campaign = campaigns[id]
+    if campaigns.length>0
+      id = rand(campaigns.count)
+      @campaign = campaigns[id]
 
-    # Добавляем просмотр баннеру компании
-    show = @campaign[:show]
+      # Добавляем просмотр баннеру компании
+      show = @campaign[:show]
 
-    if show
-      @show = show + 1
+      if show
+        @show = show + 1
+      else
+        @show = 1
+      end
+
+      # Обновляем эту компанию с новым количесвтом просмотров и отношением показов и кликов
+      @campaign.update(show: @show, conversion: ((@campaign.click.to_f/@show.to_f)*100).round(1))
     else
-      @show = 1
+      render text: 'нет рекламных кампаний'
     end
 
-    # Обновляем эту компанию с новым количесвтом просмотров и отношением показов и кликов
-    @campaign.update(show: @show, conversion: ((@campaign.click.to_f/@show.to_f)*100).round(1))
 
   end
 
