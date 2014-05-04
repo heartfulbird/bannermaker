@@ -1,15 +1,35 @@
 require 'spec_helper'
-Rails.env = 'development'
 
-describe "first_test" do
-  fixtures :campaigns
 
-  it "visit site" do
+require 'simplecov'
+SimpleCov.start
 
-    1000.times do
+
+
+
+describe "Test" do
+
+  before(:each) do
+    @campaign = FactoryGirl.create(:campaign)
+  end
+
+
+
+
+
+  it "GET BANNER PAGE" do
+
+    1.times do
       visit('/get_banner')
     end
 
     expect(page).to have_selector 'a'
+    expect(page).to have_selector 'img'
+
+
+    #expect(page).to have_content 'test name'
+    #expect(page).to have_content 'нет изображения'
+
+
   end
 end
