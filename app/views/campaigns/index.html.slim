@@ -12,8 +12,8 @@ table.table.table-striped.table-hover
     th
     th
 
-  - @campaigns.each do |campaign|
-    tr
+  - @campaigns.each_with_index do |campaign, index|
+    tr id="#{index+1}"
       td
         - if campaign.image.present?
           div style="background: url(#{campaign.image.url(:thumb)}) no-repeat center; background-size: cover;"
