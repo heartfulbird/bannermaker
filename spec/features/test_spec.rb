@@ -67,8 +67,33 @@ describe "Test" do
   end
 
 
+end
+
+
+describe GetBannerController, :type => :controller do
+
+  it 'get random campaign' do
+
+    #campaign = FactoryGirl.create(:campaign)
+
+    get :index, use_route: :get_banner
+
+    #assigns(:campaign).should eq(campaign)
+
+    response.should render_template :index
+  end
+
+end
 
 
 
+
+describe 'LOAD_TEST' do
+
+  it 'LOAD_TEST' do
+
+    system "ab -c 10 -n 100 http://localhost:3000/get_banner"
+
+  end
 
 end

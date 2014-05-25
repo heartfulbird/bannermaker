@@ -7,7 +7,7 @@ FactoryGirl.define do
     image_content_type 'image/jpeg'
     show 10
     click 1
-    conversion 0.1
+    conversion 10
   end
 
 end
