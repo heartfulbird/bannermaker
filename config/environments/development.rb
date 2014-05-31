@@ -27,8 +27,8 @@ Bannermaker::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  config.after_initialize do
-    #!/bin/bash
-    system 'rackup danthes.ru -s thin -E production'
-  end
+  #config.after_initialize do
+  #  #!/bin/bash
+  #  system 'rackup danthes.ru -s thin -E production'
+  #end
 end
