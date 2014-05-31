@@ -49,6 +49,7 @@ describe "Test" do
 
     fill_in 'Name', with: 'NEW TEST CAMPAIGN'
     fill_in 'Link', with: 'http://google.com'
+
     click_button('Create Campaign')
 
     expect(page).to have_content 'Campaign was successfully created.'
@@ -92,7 +93,7 @@ describe 'LOAD_TEST' do
 
   it 'LOAD_TEST' do
 
-    system "ab -c 10 -n 100 http://localhost:3000/get_banner"
+    #system "ab -c 10 -n 100 http://localhost:3000/get_banner"
 
   end
 

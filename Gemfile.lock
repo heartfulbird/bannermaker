@@ -116,6 +116,8 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.3)
       mime-types
+    paperclip-rack (0.0.2)
+      paperclip (>= 3.0)
     polyglot (0.3.4)
     pry (0.9.12.6)
       coderay (~> 1.0)
@@ -245,6 +247,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   paperclip (~> 4.1)
+  paperclip-rack
   pry-debugger
   rails (= 4.0.2)
   rspec-rails (~> 3.0.0.beta)
