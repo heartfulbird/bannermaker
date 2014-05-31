@@ -27,11 +27,14 @@ class GetBannerController < ApplicationController
       end
 
       # Обновляем эту компанию с новым количесвтом просмотров и отношением показов и кликов
-      @campaign.update(show: @show, conversion: ((@campaign.click.to_f/@show.to_f)*100).round(1))
+      conversion = ((@campaign.click.to_f/@show.to_f)*100).round(1)
+      @campaign.update(show: @show, conversion: conversion)
+
+      Danthes.publish_to "/campaigns/#{@campaign.id}", show: @show, click: @campaign.click, conversion: conversion
+
     else
       render text: 'нет рекламных кампаний'
     end
-
 
   end
 

@@ -1,13 +1,13 @@
 p#notice = notice
 
-/h1
-/  | Campaign  &nbsp;|&nbsp;
-/  = @campaign.name
-/.margin-top-30
 
 h2
   = @campaign.name
 .margin-top-30
+/javascript:
+/  Danthes.debug = true
+
+= subscribe_to "/campaigns/#{@campaign.id}"
 
 
 - if @show_results
@@ -23,10 +23,16 @@ h2
           div.show style="background: url(#{@campaign.image.url(:medium)}) no-repeat center; background-size: cover;"
         - else
           i.no_image.fa.fa-file-o
-      td  = @campaign.show ? @campaign.show : 0
-      td = @campaign.click ? @campaign.click : 0
-      td = @campaign.conversion ? @campaign.conversion : 0.0
+      td#show  = @campaign.show ? @campaign.show : 0
+      td#click = @campaign.click ? @campaign.click : 0
+      td#conversion = @campaign.conversion ? @campaign.conversion : 0.0
 
 
 
 = link_to 'Back', campaigns_path
+javascript:
+   Danthes.subscribe("/campaigns/#{@campaign.id}", function (data, channel) {
+     $("#show").text(data.show);
+     $("#click").text(data.click);
+     $("#conversion").text(data.conversion);
+   });

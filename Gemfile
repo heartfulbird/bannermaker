@@ -27,6 +27,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+gem 'pry-debugger'
 
 # FRONT
 gem 'twitter-bootstrap-rails'
@@ -36,6 +37,10 @@ gem "paperclip", "~> 4.1"
 gem 'font-awesome-sass'
 # end
 
+#REFRESH
+gem 'yajl-ruby', require: 'yajl'
+gem 'danthes'
+gem 'thin'
 
 # tests
 group :development, :test do

@@ -6,16 +6,19 @@ class CampaignsController < ApplicationController
   end
 
   def show
+
     click = params[:click]
 
     if click
 
-      @all_click = click.to_i + 1
+      @all_click = @campaign.click + 1
       @all_show = @campaign.show
       @conversion = ((@all_click.to_f/@all_show.to_f)*100).round(1)
       @campaign.update(click: @all_click, conversion: @conversion)
 
       @show_results = nil
+
+      Danthes.publish_to "/campaigns/#{@campaign.id}", show: @all_show, click: @all_click, conversion: @conversion
 
       redirect_to @campaign.link
 

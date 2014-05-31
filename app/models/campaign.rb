@@ -1,5 +1,5 @@
 class Campaign < ActiveRecord::Base
-  validates :name, :link, presence: true
+  validates :name, :link, :image, presence: true
 
 
   has_attached_file :image, :styles => {:medium => "200x200>", :thumb => "100x100>"}
