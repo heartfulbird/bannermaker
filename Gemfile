@@ -33,7 +33,7 @@ gem 'pry-debugger'
 gem 'twitter-bootstrap-rails'
 gem "slim-rails"
 gem 'simple_form'
-gem "paperclip", "~> 4.1"
+gem "paperclip", "~> 4.1.1"
 gem 'font-awesome-sass'
 gem 'paperclip-rack', require: 'paperclip/rack'
 # end
